@@ -286,3 +286,22 @@
       collection: FootstepSkates
       params:
         variation: 0.08
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesParamedic
+  name: EMT running shoes
+  description: Sometimes you've got to move. Sometimes you can't let 3 bullet wounds and a cracked rib stop you.
+  components:
+  - type: Sprite
+    sprite: Clothing/Shoes/Specific/emtshoes.rsi
+  - type: Clothing
+    sprite: Clothing/Shoes/Specific/emtshoes.rsi
+    clothingVisuals:
+      shoes:
+      - state: equipped-FEET
+        #      - state: equipped-FEET-vox
+      - type: Item
+  - type: ClothingSlowOnDamageModifier
+    modifier: 0.25
+

@@ -34,6 +34,8 @@
   - type: Clothing
     sprite: Clothing/Shoes/Boots/explorer.rsi
   - type: Matchbox
+  - type: ClothingSlowOnDamageModifier
+    modifier: 0.25
 
 - type: entity
   parent: ClothingShoesBaseButcherable
@@ -61,7 +63,7 @@
   parent: ClothingShoesMilitaryBase
   id: ClothingShoesHighheelBoots
   name: high-heeled boots
-  description: Snazy boots for when you want to be stylish, yet prepared.
+  description: Snazzy boots for when you want to be stylish, yet prepared.
   components:
   - type: MeleeWeapon
     damage:
@@ -141,6 +143,23 @@
 
 - type: entity
   parent: ClothingShoesBaseWinterBoots
+  id: ClothingShoesBootsWinterParamedic
+  name: EMT winter treads
+  description: I will venture through fire and through spess to save your soul.
+  components:
+    - type: ClothingSlowOnDamageModifier
+      modifier: 0.25
+    - type: Sprite
+      sprite: Clothing/Shoes/Boots/emtboots.rsi
+    - type: Clothing
+      sprite: Clothing/Shoes/Boots/emtboots.rsi\
+      clothingVisuals:
+        shoes:
+        - state: equipped-FEET
+        - type: Item
+
+- type: entity
+  parent: ClothingShoesBaseWinterBoots
   id: ClothingShoesBootsWinterSci
   name: science winter boots
   components:
@@ -153,11 +172,14 @@
   parent: [ClothingShoesBaseWinterBoots, ClothingShoesMilitaryBase, BaseSecurityContraband]
   id: ClothingShoesBootsWinterSec
   name: security winter boots
+  description: Catching criminals in the most miserable conditions, and in style. 
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/winterbootssec.rsi
   - type: Clothing
     sprite: Clothing/Shoes/Boots/winterbootssec.rsi
+  - type: ClothingSlowOnDamageModifier
+    modifier: 0.35
 
 - type: entity
   parent: [ClothingShoesBaseWinterBoots, BaseSyndicateContraband]
