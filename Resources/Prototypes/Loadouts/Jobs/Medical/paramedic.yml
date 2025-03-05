@@ -28,7 +28,11 @@
 
 # Shoes
 - type: loadout
-  id: BlueShoes
+  id: EMTShoes
   equipment:
-    shoes: ClothingShoesColorBlue
+    shoes: ClothingShoesParamedic
 
+- type: loadout
+  id: EMTShoesWinter
+  equipment:
+    shoes: ClothingShoesBootsWinterParamedic
