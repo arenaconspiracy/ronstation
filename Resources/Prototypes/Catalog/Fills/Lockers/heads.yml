@@ -18,6 +18,7 @@
     - id: RubberStampDenied
     - id: RubberStampQm
     - id: AstroNavCartridge
+    - id: MailTeleporterMachineCircuitboard
 
 - type: entity
   id: LockerQuarterMasterFilled
@@ -69,6 +70,7 @@
     - id: ClothingOuterHardsuitCap
     - id: ClothingMaskGasCaptain
     - id: JetpackCaptainFilled
+    - id: NitrogenTankFilled
     - id: OxygenTankFilled
 
 # No laser locker, used when the antique laser is placed in the special display crate
@@ -172,6 +174,7 @@
     - id: ClothingOuterHardsuitEngineeringWhite
     - id: ClothingShoesBootsMagAdv
     - id: JetpackVoidFilled
+    - id: NitrogenTankFilled
     - id: OxygenTankFilled
 
 # No hardsuit locker
@@ -228,6 +231,7 @@
     children:
     - id: ClothingMaskBreathMedical
     - id: ClothingOuterHardsuitMedical
+    - id: NitrogenTankFilled
     - id: OxygenTankFilled
 
 # No hardsuit locker
@@ -280,6 +284,7 @@
     children:
     - id: ClothingMaskBreath
     - id: ClothingOuterHardsuitRd
+    - id: NitrogenTankFilled
     - id: OxygenTankFilled
 
 # No hardsuit locker
