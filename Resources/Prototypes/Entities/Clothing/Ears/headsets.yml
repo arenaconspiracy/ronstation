@@ -224,6 +224,7 @@
       - EncryptionKeyScience
       - EncryptionKeyCommand
       - EncryptionKeyCommon
+      - EncryptionKeyBinary
 
 - type: entity
   parent: [ClothingHeadset, BaseSecurityLawyerContraband]
