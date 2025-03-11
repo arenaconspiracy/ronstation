@@ -13,6 +13,7 @@
   icon: "JobIconParamedic"
   supervisors: job-supervisors-cmo
   access:
+  - External
   - Medical
   - Maintenance
   extendedAccess:
@@ -22,7 +23,7 @@
   id: ParamedicGear
   equipment:
     id: ParamedicPDA
-    ears: ClothingHeadsetMedical
+    ears: ClothingHeadsetParamedic
     belt: ClothingBeltMedicalEMTFilled
   storage:
     back:
