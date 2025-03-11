@@ -133,15 +133,29 @@
   - type: StorageFill
     contents:
       - id: ClothingOuterHardsuitVoidParamed
+      - id: DoubleEmergencyOxygenTankFilled
+      - id: DoubleEmergencyNitrogenTankFilled
       - id: ClothingOuterCoatParamedicWB
-      - id: ClothingHeadHatParamedicsoft
+        prob: 0.4
+        orGroup: OuterClothing
       - id: ClothingOuterWinterPara
-      - id: ClothingUniformJumpsuitParamedic
-      - id: ClothingUniformJumpskirtParamedic
-      - id: ClothingEyesHudMedical
-      - id: ClothingHandsGlovesLatex
-      - id: ClothingHeadsetMedical
-      - id: ClothingMaskSterile
+        prob: 0.4
+        orGroup: OuterClothing
+      - id: ClothingHeadHatParamedicsoft
+      - id: ClothingEyesEyepatchHudMedical
+      - id: ClothingHandsGlovesNitrile
+      - id: ClothingHeadsetParamedic
       - id: HandheldGPSBasic
-      - id: MedkitFilled
-        prob: 0.3
+      - id: MedkitOxygenFilled
+        prob: 0.7
+      - id: MedkitRadiationFilled
+        prob: 0.35
+        orGroup: MedkitSpecial
+      - id: MedkitToxinFilled
+        prob: 0.35
+        orGroup: MedkitSpecial
+      - id: MedkitBurnFilled
+        prob: 0.35
+        orGroup: MedkitSpecial
+      - id: MedkitAdvancedFilled
+        prob: 0.15
