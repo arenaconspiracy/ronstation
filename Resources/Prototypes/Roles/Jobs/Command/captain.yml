@@ -38,7 +38,7 @@
     eyes: ClothingEyesGlassesSunglasses
     gloves: ClothingHandsGlovesCaptain
     id: CaptainPDA
-    ears: ClothingHeadsetAltCommand
+    ears: ClothingHeadsetCommand
   storage:
     back:
     - Flash

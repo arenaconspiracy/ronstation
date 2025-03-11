@@ -12,7 +12,7 @@
     - id: SalvageMagnetMachineCircuitboard
     - id: CigPackGreen
       prob: 0.50
-    - id: ClothingHeadsetAltCargo
+    - id: ClothingHeadsetCommandQM
     - id: DoorRemoteCargo
     - id: RubberStampApproved
     - id: RubberStampDenied
@@ -39,7 +39,7 @@
     - id: CigarGoldCase
       prob: 0.25
     - id: ClothingBeltSheathFilled
-    - id: ClothingHeadsetAltCommand
+    - id: ClothingHeadsetCommand
     - id: ClothingOuterArmorCaptainCarapace
     - id: CommsComputerCircuitboard
     - id: DoorRemoteCommand
@@ -159,7 +159,7 @@
     - id: ClothingBeltChiefEngineerFilled
     - id: ClothingEyesGlassesMeson
     - id: ClothingHandsGlovesColorYellow
-    - id: ClothingHeadsetAltEngineering
+    - id: ClothingHeadsetCommandCE
     - id: DoorRemoteEngineering
     - id: RCD
     - id: RCDAmmo
@@ -214,7 +214,7 @@
     - id: ClothingEyesHudMedical
     - id: ClothingHandsGlovesNitrile
     - id: ClothingHeadHatBeretCmo
-    - id: ClothingHeadsetAltMedical
+    - id: ClothingHeadsetCommandCMO
     - id: ClothingMaskSterile
     - id: DoorRemoteMedical
     - id: HandheldCrewMonitor
@@ -269,7 +269,7 @@
     - id: BoxEncryptionKeyScience
     - id: CircuitImprinterMachineCircuitboard
     - id: ClothingBeltUtilityFilled
-    - id: ClothingHeadsetAltScience
+    - id: ClothingHeadsetCommandRD
     - id: DoorRemoteResearch
     - id: EncryptionKeyBinary
     - id: HandTeleporter
@@ -325,7 +325,7 @@
       prob: 0.50
     - id: ClothingBeltSecurityFilled
     - id: ClothingEyesGlassesSecurity
-    - id: ClothingHeadsetAltSecurity
+    - id: ClothingHeadsetCommandHoS
     - id: ClothingMaskNeckGaiter
     - id: ClothingOuterCoatHoSTrench
     - id: ClothingShoesBootsJack

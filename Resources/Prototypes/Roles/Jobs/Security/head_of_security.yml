@@ -44,7 +44,7 @@
     eyes: ClothingEyesGlassesSecurity
     id: HoSPDA
     gloves: ClothingHandsGlovesCombat
-    ears: ClothingHeadsetAltSecurity
+    ears: ClothingHeadsetCommandHoS
     pocket1: WeaponPistolMk58
   storage:
     back:

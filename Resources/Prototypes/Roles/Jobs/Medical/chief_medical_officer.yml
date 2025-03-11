@@ -41,7 +41,7 @@
   id: CMOGear
   equipment:
     id: CMOPDA
-    ears: ClothingHeadsetCMO
+    ears: ClothingHeadsetCommandCMO
     belt: ClothingBeltMedicalFilled
   storage:
     back:
