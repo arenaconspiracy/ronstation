@@ -150,9 +150,9 @@
     modifiers:
       coefficients:
         Blunt: 0.7
-        Slash: 0.7
-        Piercing: 0.5
-        Radiation: 0.3
+        Slash: 0.55
+        Piercing: 0.7
+        Radiation: 0.2
         Caustic: 0.7
   - type: ClothingSpeedModifier
     walkModifier: 0.75
@@ -386,8 +386,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCommandContraband]
   id: ClothingOuterHardsuitMedical
-  name: chief medical officer's hardsuit
-  description: A special suit that protects against hazardous, low pressure environments. Built with lightweight materials for easier movement.
+  name: chief medical officer's voidsuit
+  description: A lightweight void-capable suit issued to the CMO, Built with advanced fabrics with laceration and chemical protection, that feel soft and don't slow you down!
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/medical.rsi
@@ -399,6 +399,11 @@
   - type: Armor
     modifiers:
       coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Heat: 0.7
+        Radiation: 0.65
+        Heat: 0.65
         Caustic: 0.1
   - type: ClothingSpeedModifier
     walkModifier: 0.9
