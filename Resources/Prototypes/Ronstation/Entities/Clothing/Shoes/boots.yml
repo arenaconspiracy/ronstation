@@ -7,3 +7,5 @@
     sprite: Ronstation/Clothing/Shoes/Boots/winterbootsblueshield.rsi
   - type: Clothing
     sprite: Ronstation/Clothing/Shoes/Boots/winterbootsblueshield.rsi
+  - type: ClothingSlowOnDamageModifier
+    modifier: 0.35
