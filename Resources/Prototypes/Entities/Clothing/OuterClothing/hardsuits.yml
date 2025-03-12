@@ -401,9 +401,8 @@
       coefficients:
         Blunt: 0.7
         Slash: 0.7
-        Heat: 0.7
-        Radiation: 0.65
         Heat: 0.65
+        Radiation: 0.65
         Caustic: 0.1
   - type: ClothingSpeedModifier
     walkModifier: 0.9
