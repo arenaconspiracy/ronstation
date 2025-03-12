@@ -46,6 +46,8 @@
       - id: DoorRemoteArmory
       - id: HoloprojectorSecurity
       - id: BookSpaceLaw
+      - id: BookSecurity
+        prob: 0.5
       - id: ClothingBackpackElectropack
         amount: 2
       - id: RemoteSignaller
@@ -77,8 +79,11 @@
         prob: 0.1
       - id: HoloprojectorSecurity
         prob: 0.6
+      - id: BookSecurity
+        # guaranteed sec 101 book because you can never have too little shitsec
       - id: BookSpaceLaw
         prob: 0.5
+        # 50% chance for a spare space law book to whack your coworkers over the head with
 
 - type: entity
   id: LockerBrigmedicFilled
@@ -140,6 +145,9 @@
       - id: HoloprojectorSecurity
       - id: BoxEvidenceMarkers
       - id: HandLabeler
+      - id: BookSpaceLaw
+      - id: BookSecurity
+        prob: 0.5
 
 - type: entity
   id: ClosetBombFilled
