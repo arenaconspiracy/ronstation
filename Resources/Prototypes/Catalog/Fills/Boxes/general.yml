@@ -369,6 +369,17 @@
         amount: 4
 
 - type: entity
+  name: CentCom encryption key box
+  parent: BoxEncryptionKeyPassenger
+  id: BoxEncryptionKeyCentCom
+  description: A box of very. VERY valuable encryption keys. Intended to be handed out by a blueshield officer to VERY trusted personnel.
+  components:
+  - type: StorageFill
+    contents:
+      - id: EncryptionKeyCentCom
+        amount: 4
+
+- type: entity
   name: syndicate encryption key box
   parent: [BoxEncryptionKeyPassenger, BaseSyndicateContraband]
   id: BoxEncryptionKeySyndie

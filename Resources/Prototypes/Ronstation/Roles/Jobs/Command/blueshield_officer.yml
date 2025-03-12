@@ -46,7 +46,7 @@
   equipment:
     eyes: ClothingEyesGlassesSecurity
     gloves: ClothingHandsGlovesCombat
-    ears: ClothingHeadsetCommand
+    ears: ClothingHeadsetAltCentCom
     pocket1: WeaponDisabler
   storage:
     back:
