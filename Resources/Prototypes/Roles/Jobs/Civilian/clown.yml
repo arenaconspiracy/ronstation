@@ -32,7 +32,7 @@
     pocket1: BikeHorn
     pocket2: ClownRecorder
     id: ClownPDA
-    ears: ClothingHeadsetService
+    ears: ClothingHeadsetClown
   storage:
     back:
     - RubberStampClown

@@ -219,6 +219,28 @@
     sprite: Clothing/Ears/Headsets/service.rsi
 
 - type: entity
+  parent: ClothingHeadsetService
+  id: ClothingHeadsetClown
+  name: clown headset
+  description: Thankfully the built in noise surpression filters out honking almost entirely.
+  components:
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/clown.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/clown.rsi
+
+- type: entity
+  parent: ClothingHeadsetService
+  id: ClothingHeadsetMime
+  name: mime headset
+  description: A mime still has to hear people. And besides, when a mime HAS to speak, you'll probably be glad to have heard it.
+  components:
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/mime.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/mime.rsi
+
+- type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetFreelance
   name: freelancer headset
