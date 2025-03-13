@@ -10,9 +10,10 @@
   - type: Clothing
 
 - type: entity
-  parent: ClothingHeadsetAlt
+  parent: [ClothingHeadsetAlt, BaseCommandContraband]
   id: ClothingHeadsetCommandQM
   name: quartermaster's overhead radio
+  description: An overhead intercom used by the quartermaster to yell at unruly salvage specialists.
   components:
   - type: ContainerFill
     containers:
@@ -26,9 +27,9 @@
     sprite: Clothing/Ears/Headsets/Command/quartermaster.rsi
 
 - type: entity
-  parent: ClothingHeadsetAlt
+  parent: [ClothingHeadsetAlt, BaseCentcommContraband]
   id: ClothingHeadsetAltCentCom
-  name: CentComm overhead radio
+  name: CentCom overhead radio  
   components:
   - type: ContainerFill
     containers:
@@ -44,6 +45,7 @@
   parent: [ClothingHeadsetAlt, BaseCommandContraband]
   id: ClothingHeadsetCommand
   name: command overhead radio
+  description: A prestige radio unit, for those who have business in everyone else's business.
   components:
   - type: ContainerFill
     containers:
@@ -58,6 +60,7 @@
   parent: [ClothingHeadsetAlt, BaseCommandContraband]
   id: ClothingHeadsetCommandCE
   name: chief engineer's overhead radio
+  description: A headset for the chief engineer to ignore all emergency calls with.
   components:
   - type: ContainerFill
     containers:
@@ -74,6 +77,7 @@
   parent: [ClothingHeadsetAlt, BaseCommandContraband]
   id: ClothingHeadsetCommandCMO
   name: chief medical officer's overhead radio
+  description: A headset for the chief medical officer to tell other command about their subordinates dying for the 5th time this shift.
   components:
   - type: ContainerFill
     containers:
@@ -92,6 +96,7 @@
   parent: [ClothingHeadsetAlt, BaseCommandContraband]
   id: ClothingHeadsetCommandHoS
   name: head of security's overhead radio
+  description: A robustly built modular intercom for the head of robusting.
   components:
   - type: ContainerFill
     containers:
@@ -108,6 +113,7 @@
   parent: [ClothingHeadsetAlt, BaseCommandContraband]
   id: ClothingHeadsetCommandRD
   name: research director's overhead radio
+  description: An updated, modular intercom that fits over the head, capable of surviving the artifact chamber exploding yet again.
   components:
   - type: ContainerFill
     containers:
@@ -120,6 +126,21 @@
     sprite: Clothing/Ears/Headsets/Command/researchdirector.rsi
   - type: Clothing
     sprite: Clothing/Ears/Headsets/Command/researchdirector.rsi
+
+- type: entity
+  parent: ClothingHeadsetAlt
+  id: ClothingHeadsetCommandPassenger
+  name: passenger's overhead radio
+  description: A passenger's headset using the same form factor as the units used by command members. Doesn't come with command encryption.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyCommon
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/Command/passenger.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/Command/passenger.rsi
 
 - type: entity
   parent: [ClothingHeadsetAlt, BaseSyndicateContraband]
