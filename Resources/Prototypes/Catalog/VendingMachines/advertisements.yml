@@ -209,6 +209,12 @@
     count: 9
 
 - type: localizedDataset
+  id: ParaVendAds
+  values:
+    prefix: advertisement-paravend-
+    count: 9
+
+- type: localizedDataset
   id: NutriMaxAds
   values:
     prefix: advertisement-nutrimax-

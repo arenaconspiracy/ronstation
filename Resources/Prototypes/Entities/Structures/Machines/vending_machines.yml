@@ -880,6 +880,19 @@
     - Medical Doctor
 
 - type: entity
+  parent: VendingMachineMedical
+  id: VendingMachineParamedic
+  name: ParaVend
+  description: A combined clothing and equipment dispenser for paramedics.
+  components:
+    - type: Sprite
+      sprite: Structures/Machines/VendingMachines/paravend.rsi
+    - type: VendingMachine
+      pack: ParamedicMachineInventory
+    - type: Advertise
+      pack: ParaVendAds
+
+- type: entity
   parent: VendingMachine
   id: VendingMachineNutri
   name: NutriMax

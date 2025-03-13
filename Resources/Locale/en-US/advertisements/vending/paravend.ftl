@@ -1,0 +1,9 @@
+advertisement-paravend-1 = Go save some lives!
+advertisement-paravend-2 = You are their angel!
+advertisement-paravend-3 = Hope it's not snakes again...
+advertisement-paravend-4 = You'll get there in time, probably.
+advertisement-paravend-5 = Make sure you're ready, they sure aren't!
+advertisement-paravend-6 = Time is moving. You move faster!
+advertisement-paravend-7 = Did the clown get critted AGAIN?!
+advertisement-paravend-8 = I hope you know all the shortcuts!
+advertisement-paravend-9 = Pester them over coordinates again.

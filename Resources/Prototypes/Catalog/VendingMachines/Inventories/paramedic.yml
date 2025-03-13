@@ -1,0 +1,30 @@
+- type: vendingMachineInventory
+  id: ParamedicMachineInventory
+  startingInventory:
+    ClothingHeadHatParamedicsoft: 2
+    ClothingHeadsetParamedic: 2
+    ClothingEyesHudMedical: 1
+    ClothingEyesEyepatchHudMedical: 2
+    ClothingUniformJumpsuitParamedic: 2
+    ClothingUniformJumpskirtParamedic: 2
+    ClothingOuterCoatParamedicWB: 1
+    ClothingOuterWinterPara: 1
+    ClothingBeltMedicalEMT: 2
+    ClothingBackpackSatchelMedical: 2
+    ClothingShoesParamedic: 1
+    ClothingShoesBootsWinterParamedic: 1
+    EmergencyRollerBedSpawnFolded: 2
+    BodyBagFolded: 4
+    Gauze: 5
+    Bloodpack: 5
+    EmergencyMedipen: 4
+    AntiPoisonMedipen: 2
+    BruteAutoInjector: 1
+    BurnAutoInjector: 1
+    Syringe: 4
+    BoxBottle: 4
+  contrabandInventory:
+    RadAutoInjector: 1
+    Tourniquet: 3  
+  emaggedInventory:
+    StimpackMini: 2
