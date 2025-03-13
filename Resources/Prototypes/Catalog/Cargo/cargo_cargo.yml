@@ -9,7 +9,7 @@
   group: market
 
 - type: cargoProduct
-  id: CargoJetpack # copy-paste of EngineeringJetpack, which i'm removing
+  id: cargoJetpack # copy-paste of EngineeringJetpack, which i'm removing
   icon:
     sprite: Objects/Tanks/Jetpacks/blue.rsi
     state: icon
@@ -38,14 +38,15 @@
   category: cargoproduct-category-name-cargo
   group: market
 
-- type: CargoProduct
+- type: cargoProduct
   id: CargoMiningHardsuit
   icon:
     sprite: Clothing/Head/Hardsuits/salvage.rsi
     state: icon
-    product: SuitStorageMining
-    cost: 10000
-    group: market
+  product: SuitStorageMining
+  cost: 10000
+  category: cargoproduct-category-name-cargo
+  group: market
 
 - type: cargoProduct
   id: CargoLuxuryHardsuit
