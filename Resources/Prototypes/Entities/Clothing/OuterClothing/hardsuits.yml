@@ -101,7 +101,7 @@
   parent: [ClothingOuterHardsuitBase, BaseCargoContraband]
   id: ClothingOuterHardsuitSpatio
   name: spationaut hardsuit
-  description: A lightweight hardsuit designed for industrial EVA in zero gravity.
+  description: A hardsuit designed for industrial EVA applications, a salvage specialist's best friend.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/spatio.rsi
@@ -110,13 +110,16 @@
   - type: PressureProtection
     highPressureMultiplier: 0.7
     lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.8
   - type: Armor
     modifiers:
       coefficients:
         Blunt: 0.9
         Slash: 0.9
         Piercing: 0.9
-        Radiation: 0.3 #salv is supposed to have radiation hazards in the future
+        Heat: 0.5
+        Radiation: 0.3
         Caustic: 0.8
   - type: ClothingSpeedModifier
     walkModifier: 0.9
@@ -135,7 +138,7 @@
   parent: [ClothingOuterHardsuitBase, BaseCargoContraband]
   id: ClothingOuterHardsuitSalvage
   name: mining hardsuit
-  description: A special suit that protects against hazardous, low pressure environments. Has reinforced plating for wildlife encounters.
+  description: A hardsuit built for rock crushers and alien robusters. Ccomes with a brighter light so you can see better when mining, and robusting.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/salvage.rsi
@@ -145,15 +148,16 @@
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
-    damageCoefficient: 0.3
+    damageCoefficient: 0.6
   - type: Armor
     modifiers:
       coefficients:
         Blunt: 0.7
-        Slash: 0.55
-        Piercing: 0.7
+        Slash: 0.65
+        Piercing: 0.8
+        Heat: 0.4
         Radiation: 0.2
-        Caustic: 0.7
+        Caustic: 0.6
   - type: ClothingSpeedModifier
     walkModifier: 0.75
     sprintModifier: 0.75
@@ -488,10 +492,10 @@
 
 #Luxury Mining Hardsuit
 - type: entity
-  parent: ClothingOuterHardsuitBase
+  parent: [ ClothingOuterHardsuitBase, BaseCargoContraband ]
   id: ClothingOuterHardsuitLuxury #DO NOT MAP - https://github.com/space-wizards/space-station-14/pull/19738#issuecomment-1703486738
   name: luxury mining hardsuit
-  description: A refurbished mining hardsuit, fashioned after the Quartermaster's colors. Graphene lining provides less protection, but is much easier to move.
+  description: A refurbished mining hardsuit, painted in the Quartermaster's colors. Comes with even robuster armor plating for improved rock crushing and destruction.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -502,18 +506,19 @@
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
-    damageCoefficient: 0.5
+    damageCoefficient: 0.3
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.8
-        Radiation: 0.5
-        Caustic: 0.8
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.6
+        Heat: 0.3
+        Radiation: 0.1
+        Caustic: 0.6
   - type: ClothingSpeedModifier
-    walkModifier: 0.85
-    sprintModifier: 0.9
+    walkModifier: 0.75
+    sprintModifier: 0.75
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitLuxury
