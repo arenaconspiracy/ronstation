@@ -100,6 +100,16 @@
       - id: VendingMachineRestockMedical
 
 - type: entity
+  id: CrateVendingMachineRestockParamedicFilled
+  parent: CrateMedicalSecure
+  name: ParaVend restock crate
+  description: Contains a restock box for the ParaVend machine.
+  components:
+  - type: StorageFill
+    contents:
+      - id: VendingMachineRestockParamedic
+
+- type: entity
   id: CrateVendingMachineRestockChemVendFilled
   parent: CrateMedicalSecure
   name: ChemVend restock crate

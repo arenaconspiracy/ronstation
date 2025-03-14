@@ -109,6 +109,16 @@
   group: market
 
 - type: cargoProduct
+  id: CrateVendingMachineRestockParamedic
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockParamedicFilled
+  cost: 1300
+  category: cargoproduct-category-name-medical
+  group: market
+
+- type: cargoProduct
   id: CrateVendingMachineRestockChemVend
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi

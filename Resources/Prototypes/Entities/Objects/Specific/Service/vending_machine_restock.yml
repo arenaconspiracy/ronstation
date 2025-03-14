@@ -290,6 +290,22 @@
 
 - type: entity
   parent: BaseVendingMachineRestock
+  id: VendingMachineRestockParamedic
+  name: ParaVend restock box
+  description: Insert into a ParaVend machine for lifesaving tools and heartstopping fashion.
+  components:
+  - type: VendingMachineRestock
+    canRestock:
+    - ParamedicMachineInventory
+  - type: Sprite
+    layers:
+    - state: base
+    - state: green_bit
+      shader: unshaded
+    - state: refill_paramedic
+
+- type: entity
+  parent: BaseVendingMachineRestock
   id: VendingMachineRestockNutriMax
   name: NutriMax restock box
   description: We'll make your thumbs green with our tools. Let's get to harvesting! Load into a NutriMax vending machine.
