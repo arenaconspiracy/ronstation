@@ -99,6 +99,19 @@
     back:
     - CigarGold
 
+# Paper sacks
+- type: loadout
+  id: ClothingHeadPaperSack
+  storage:
+    back:
+    - ClothingHeadPaperSack
+
+- type: loadout
+  id: ClothingHeadPaperSackSmile
+  storage:
+    back:
+    - ClothingHeadPaperSackSmile
+
 # Pins
 - type: loadout
   id: ClothingNeckLGBTPin
