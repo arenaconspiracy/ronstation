@@ -206,12 +206,12 @@
 
 - type: entity
   parent: BaseThiefStealObjective
-  id: ClothingHeadsetAltMedicalStealObjective
+  id: ClothingHeadsetCommandMedicalStealObjective
   components:
   - type: NotJobRequirement
     job: ChiefMedicalOfficer
   - type: StealCondition
-    stealGroup: ClothingHeadsetAltMedical
+    stealGroup: ClothingHeadsetCommandMedical
   - type: Objective
     difficulty: 1
 

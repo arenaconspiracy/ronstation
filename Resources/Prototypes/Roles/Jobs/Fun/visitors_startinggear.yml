@@ -14,7 +14,7 @@
     id: VisitorPDA
     belt: WeaponDisabler
     back: ClothingBackpackCaptain
-    ears: ClothingHeadsetAltCommand
+    ears: ClothingHeadsetCommand
     outerClothing: ClothingOuterArmorCaptainCarapace
     pocket1: WeaponDisabler
 
@@ -30,7 +30,7 @@
     id: VisitorPDA
     belt: WeaponDisabler
     back: ClothingBackpackSatchelCaptain
-    ears: ClothingHeadsetAltCommand
+    ears: ClothingHeadsetCommand
     outerClothing: ClothingOuterArmorCaptainCarapace
     pocket1: WeaponDisabler
 
@@ -102,7 +102,7 @@
     id: VisitorPDA
     belt: WeaponDisabler
     back: ClothingBackpackDebug
-    ears: ClothingHeadsetAltCommand
+    ears: ClothingHeadsetCommand
     outerClothing: ClothingOuterWinterHoP
     pocket1: WeaponDisabler
 
@@ -116,7 +116,7 @@
     id: VisitorPDA
     belt: WeaponDisabler
     back: ClothingBackpackSatchelLeather
-    ears: ClothingHeadsetAltCommand
+    ears: ClothingHeadsetCommand
     outerClothing: ClothingOuterWinterHoP
     pocket1: WeaponDisabler
 
@@ -131,7 +131,7 @@
     id: VisitorPDA
     belt: ClothingBeltSecurityFilled
     back: ClothingBackpackSatchelSecurity
-    ears: ClothingHeadsetAltSecurity
+    ears: ClothingHeadsetCommandSecurity
     eyes: ClothingEyesGlassesSecurity
     outerClothing: ClothingOuterCoatHoSTrench
     pocket1: WeaponDisabler
@@ -150,7 +150,7 @@
     id: VisitorPDA
     belt: ClothingBeltSecurityFilled
     back: ClothingBackpackSatchelLeather
-    ears: ClothingHeadsetAltSecurity
+    ears: ClothingHeadsetCommandSecurity
     eyes: ClothingEyesGlassesSecurity
     pocket1: WeaponDisabler
     pocket2: MagazinePistolSubMachineGunTopMounted
