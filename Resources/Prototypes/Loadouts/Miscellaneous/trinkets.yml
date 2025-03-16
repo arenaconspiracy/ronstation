@@ -102,12 +102,22 @@
 # Paper sacks
 - type: loadout
   id: ClothingHeadPaperSack
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+    !type:OverallPlaytimeRequirement
+    time: 36000 # 10hr
   storage:
     back:
     - ClothingHeadPaperSack
 
 - type: loadout
   id: ClothingHeadPaperSackSmile
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+    !type:OverallPlaytimeRequirement
+    time: 36000 # 10hr
   storage:
     back:
     - ClothingHeadPaperSackSmile
