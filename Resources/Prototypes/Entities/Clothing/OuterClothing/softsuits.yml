@@ -57,6 +57,25 @@
     containers:
       toggleable-clothing: !type:ContainerSlot {}
 
+- type: entity
+  parent: BaseItem
+  id: SuitEmergencyPackage
+  name: emergency EVA flatpack
+  description: An emergency EVA suit compressed and packaged for ease of storage. Unfold by hand.
+  components: 
+  - type: Item
+    size: Large
+    shape:
+    - 0,0,2,2
+  - type:  Sprite
+    sprite: Clothing/OuterClothing/Suits/eva_emergency.rsi
+    state: package
+  - type: SpawnItemsOnUse
+    items:
+    - id: ClothingOuterSuitEmergency
+    sound:
+      path: /Audio/Effects/unwrap.ogg
+
 #Prisoner EVA
 - type: entity
   parent: ClothingOuterEVASuitBase

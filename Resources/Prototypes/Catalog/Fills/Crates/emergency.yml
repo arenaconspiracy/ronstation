@@ -50,7 +50,7 @@
         amount: 3
       - id: NitrogenTankFilled
         amount: 3
-      - id: ClothingOuterSuitEmergency
+      - id: SuitEmergencyPackage
         amount: 3
 
 - type: entity
@@ -69,7 +69,7 @@
           amount: 6
         - id: NitrogenTankFilled
           amount: 6
-        - id: ClothingOuterSuitEmergency
+        - id: SuitEmergencyPackage
           amount: 6
 
 - type: entity
