@@ -105,8 +105,8 @@
   effects:
   - !type:JobRequirementLoadoutEffect
     requirement:
-    !type:OverallPlaytimeRequirement
-    time: 36000 # 10hr
+      !type:OverallPlaytimeRequirement
+      time: 36000 # 10hr
   storage:
     back:
     - ClothingHeadPaperSack
@@ -116,8 +116,8 @@
   effects:
   - !type:JobRequirementLoadoutEffect
     requirement:
-    !type:OverallPlaytimeRequirement
-    time: 36000 # 10hr
+      !type:OverallPlaytimeRequirement
+      time: 36000 # 10hr
   storage:
     back:
     - ClothingHeadPaperSackSmile
