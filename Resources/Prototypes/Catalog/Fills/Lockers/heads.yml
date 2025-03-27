@@ -20,6 +20,7 @@
     - id: RubberStampQm
     - id: AstroNavCartridge
     - id: MailTeleporterMachineCircuitboard
+    - id: WeaponDisabler
 
 - type: entity
   id: LockerQuarterMasterFilled
@@ -168,6 +169,7 @@
     - id: RCD
     - id: RCDAmmo
     - id: RubberStampCE
+    - id: WeaponDisabler
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
@@ -228,6 +230,7 @@
     - id: MedkitFilled
     - id: RubberStampCMO
     - id: MedTekCartridge
+    - id: WeaponDisabler
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
@@ -282,6 +285,7 @@
     - id: ProtolatheMachineCircuitboard
     - id: ResearchComputerCircuitboard
     - id: RubberStampRd
+    - id: WeaponDisabler
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
@@ -336,6 +340,7 @@
     - id: ClothingOuterCoatHoSTrench
     - id: ClothingShoesBootsJack
     - id: DoorRemoteSecurity
+    - id: FlashlightSeclite
     - id: HoloprojectorSecurity
     - id: RubberStampHos
     - id: SecurityTechFabCircuitboard
