@@ -212,7 +212,7 @@
         - id: BarberScissors
 
 - type: entity
-  parent: ClothingBackpackDuffelSyndicateBundle
+  parent: ClothingBackpackSyndicate
   id: ClothingBackpackDuffelSyndicateEVABundle
   name: syndicate EVA bundle
   description: "Contains the Syndicate approved EVA suit."
@@ -220,7 +220,7 @@
   - type: StorageFill
     contents:
       - id: ClothingHeadHelmetSyndicate
-      - id: ClothingOuterHardsuitSyndicate
+      - id: SuitEVAPackageSyndicate
       - id: ClothingMaskGasSyndicate
       - id: ClothingHandsGlovesColorYellowBudget
       - id: DoubleEmergencyOxygenTankFilled

@@ -15,10 +15,29 @@
     - MonkeyWearable
     - WhitelistChameleon
 
+- type: entity
+  parent: BaseItem
+  id: SuitEVAPackage
+  name: EVA flatpack
+  description: An EVA suit compressed and packaged for ease of storage. Helmet not included, unfold by hand.
+  components: 
+  - type: Item
+    size: Large
+    shape:
+    - 0,0,1,1
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Suits/eva.rsi
+    state: package
+  - type: SpawnItemsOnUse
+    items:
+    - id: ClothingOuterHardsuitEVA
+    sound:
+      path: /Audio/Effects/unwrap.ogg
+
 #Syndicate EVA
 - type: entity
   parent: [ ClothingOuterEVASuitBase, BaseSyndicateContraband ]
-  id: ClothingOuterHardsuitSyndicate # TODO: rename to ClothingOuterEVASuitSyndicate
+  id: ClothingOuterEVASuitSyndicate
   name: syndicate EVA suit
   description: "Has a tag on the back that reads: 'Totally not property of an enemy corporation, honest!'"
   components:
@@ -31,6 +50,18 @@
     - SuitEVA
     - MonkeyWearable
     - WhitelistChameleon
+
+- type: entity
+  parent: SuitEVAPackage
+  id: SuitEVAPackageSyndicate
+  name: syndicate EVA flatpack
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Suits/eva_syndicate.rsi
+  - type: SpawnItemsOnUse
+    items:
+    - id: ClothingOuterEVASuitSyndicate
+
 
 #Emergency EVA
 - type: entity
@@ -58,23 +89,19 @@
       toggleable-clothing: !type:ContainerSlot {}
 
 - type: entity
-  parent: BaseItem
+  parent: SuitEVAPackage
   id: SuitEmergencyPackage
   name: emergency EVA flatpack
-  description: An emergency EVA suit compressed and packaged for ease of storage. Unfold by hand.
+  description: An emergency EVA suit compressed and packaged for ease of storage. Helmet included, unfold by hand.
   components: 
   - type: Item
-    size: Large
     shape:
-    - 0,0,2,2
-  - type:  Sprite
+    - 0,0,2,1
+  - type: Sprite
     sprite: Clothing/OuterClothing/Suits/eva_emergency.rsi
-    state: package
   - type: SpawnItemsOnUse
     items:
     - id: ClothingOuterSuitEmergency
-    sound:
-      path: /Audio/Effects/unwrap.ogg
 
 #Prisoner EVA
 - type: entity
@@ -92,6 +119,14 @@
     - SuitEVA
     - MonkeyWearable
     - WhitelistChameleon
+
+- type: entity
+  parent: SuitEmergencyPackage
+  id: SuitPrisonerPackage
+  name: prisoner EVA flatpack
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Suits/eva_prisoner.rsi
 
 #NTSRA Voidsuit / Ancient Voidsuit
 - type: entity
