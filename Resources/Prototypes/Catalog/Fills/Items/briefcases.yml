@@ -1,12 +1,14 @@
 - type: entity
   id: BriefcaseBrownFilled
   parent: BriefcaseBrown
-  suffix: Filled, Paper
+  suffix: Filled, Lawyer
   components:
   - type: StorageFill
     contents:
-      - id: Paper
-        amount: 3
+      - id: BoxFolderRed
+      - id: BoxFolderClipboard
+      - id: BookSpaceLaw
+      - id: LuxuryPen
 
 - type: entity
   id: BriefcaseSyndieSniperBundleFilled
