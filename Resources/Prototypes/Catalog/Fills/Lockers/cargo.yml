@@ -43,6 +43,8 @@
     - id: RadioHandheld
     - id: AppraisalTool
     - id: FireExtinguisher
+    - id: DrinkSalvFlask
+    - id: Gauze
     - id: Flare
       prob: 0.3
       rolls: !type:ConstantNumberSelector

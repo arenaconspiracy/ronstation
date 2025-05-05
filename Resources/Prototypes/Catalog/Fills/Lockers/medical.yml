@@ -145,6 +145,7 @@
       - id: ClothingEyesEyepatchHudMedical
       - id: ClothingHandsGlovesNitrile
       - id: ClothingHeadsetParamedic
+      - id: EMTFlask
       - id: HandheldGPSBasic
       - id: MedkitOxygenFilled
         prob: 0.7
