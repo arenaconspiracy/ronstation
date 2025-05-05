@@ -223,7 +223,7 @@
 
 #Make a scanner category when these actually function and we get the trayson
 - type: entity
-  parent: ClothingEyesBase
+  parent: ClothingEyesGlassesMeson
   id: ClothingEyesGlassesThermal
   name: optical thermal scanner
   description: Thermals in the shape of glasses.

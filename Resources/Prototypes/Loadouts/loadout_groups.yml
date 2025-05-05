@@ -805,7 +805,7 @@
   id: AtmosphericTechnicianShoes
   name: loadout-group-atmospheric-technician-shoes
   loadouts:
-  - WhiteShoes
+  - WorkBoots
   - EngineeringWinterBoots
 
 - type: loadoutGroup
