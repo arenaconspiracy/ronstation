@@ -15,7 +15,7 @@
   equipment:
     shoes: ClothingShoesColorWhite
     id: ReporterPDA
-    ears: ClothingHeadsetService
+    ears: ClothingHeadsetReporter
   #storage:
     #back:
     #- Stuff

@@ -186,6 +186,28 @@
     sprite: Clothing/Ears/Headsets/security.rsi
 
 - type: entity
+  parent: [ClothingHeadsetSecurity, BaseSecurityContraband]
+  id: ClothingHeadsetWarden
+  name: warden's headset
+  description: Ponder at whatever in the world the cadet is seeing and isn't communicating clearly.
+  components:
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/warden.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/warden.rsi
+
+- type: entity
+  parent: ClothingHeadsetSecurity
+  id: ClothingHeadsetLawyer
+  name: lawyer's headset
+  description: This is used by your elite legal team.
+  components:
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/lawyer.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/lawyer.rsi
+
+- type: entity
   parent: [ClothingHeadset, BaseSecurityContraband]
   id: ClothingHeadsetBrigmedic
   name: brigmedic headset
@@ -239,6 +261,39 @@
     sprite: Clothing/Ears/Headsets/mime.rsi
   - type: Clothing
     sprite: Clothing/Ears/Headsets/mime.rsi
+
+- type: entity
+  parent: ClothingHeadsetService
+  id: ClothingHeadsetHydroponics
+  name: hydroponics headset
+  description: A headset for the botanists to warn the station about yet another killer tomato outbreak or tritium flood with.
+  components:
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/hydroponics.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/hydroponics.rsi
+
+- type: entity
+  parent: ClothingHeadsetService
+  id: ClothingHeadsetChaplain
+  name: chaplain's headset
+  description: Host a sermon over the radio while the station is collapsing in on itself.
+  components:
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/chaplain.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/chaplain.rsi
+
+- type: entity
+  parent: ClothingHeadsetService
+  id: ClothingHeadsetReporter
+  name: reporter's headset
+  description: Features a much more robust antenna to hear all the scoops better. It doesn't actually pick up signals clearer or from any further, so it just ends up looking goofy.
+  components:
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/reporter.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/reporter.rsi
 
 - type: entity
   parent: ClothingHeadset

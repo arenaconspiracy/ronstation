@@ -19,7 +19,7 @@
   equipment:
     shoes: ClothingShoesColorBlack
     id: ChaplainPDA
-    ears: ClothingHeadsetService
+    ears: ClothingHeadsetChaplain
   storage:
     back:
     - Bible
