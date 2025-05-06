@@ -169,6 +169,10 @@
     - id: RCD
     - id: RCDAmmo
     - id: RubberStampCE
+    - id: PowerComputerCircuitboard
+    - id: SolarControlComputerCircuitboard
+    - id: AtmosMonitoringComputerCircuitboard
+    - id: AlertsComputerCircuitboard
     - id: WeaponDisabler
 
 # Hardsuit table, used for suit storage as well
@@ -223,6 +227,7 @@
     - id: ClothingHeadHatBeretCmo
     - id: ClothingHeadsetCommandCMO
     - id: ClothingMaskSterile
+    - id: CrewMonitoringComputerCircuitboard
     - id: DoorRemoteMedical
     - id: HandheldCrewMonitor
     - id: Hypospray
