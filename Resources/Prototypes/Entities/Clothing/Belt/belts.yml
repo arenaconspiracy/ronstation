@@ -278,6 +278,7 @@
         - Injector
         - Pill
         - HandLabeler
+        - Defibrillator
   - type: ItemMapper
     mapLayers:
       bottle:
@@ -294,14 +295,14 @@
           - Pill
           tags:
           - PillCanister
-      bottle_spray:
+      emtflask:
         whitelist:
           tags:
-          - Spray
-      # spray_med:
-      #   whitelist:
-      #     tags:
-      #     - SprayMedical
+          - EMTFlask
+      defib:
+        whitelist:
+          components:
+          - Defibrillator
       # wrench_medical:
       #   whitelist:
       #     tags:
