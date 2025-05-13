@@ -9,6 +9,10 @@
     sprite: Clothing/OuterClothing/Vests/webvest.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Vests/webvest.rsi
+  - type: Item
+    size: Large
+    shape:
+    -  0,0,1,2
   - type: Armor
     modifiers:
       coefficients:
@@ -51,6 +55,11 @@
     sprite: Clothing/OuterClothing/Vests/detvest.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Vests/detvest.rsi
+  - type: Item
+    size: Large
+    shape:
+    - 0,0,1,2
+
 
 #Hazard vest
 - type: entity

@@ -19,6 +19,10 @@
     sprite: Clothing/OuterClothing/Coats/detective.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/detective.rsi
+  - type: Item
+    size: Large
+    shape:
+    - 0,0,1,2
   - type: StorageFill
     contents:
     - id: SmokingPipeFilledTobacco
@@ -63,6 +67,10 @@
   parent: AllowSuitStorageClothing
   id: ClothingOuterArmorHoS
   components:
+  - type: Item
+    size: Large
+    shape:
+    - 0,0,1,2
   - type: Armor
     modifiers:
       coefficients:
@@ -79,6 +87,10 @@
   parent: AllowSuitStorageClothing
   id: ClothingOuterArmorWarden
   components:
+  - type: Item
+    size: Large
+    shape:
+    - 0,0,1,2
   - type: Armor
     modifiers:
       coefficients:
