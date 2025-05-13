@@ -21,10 +21,12 @@
     AntiPoisonMedipen: 2
     BruteAutoInjector: 1
     BurnAutoInjector: 1
+    RadAutoInjector: 1
     Syringe: 4
     BoxBottle: 4
   contrabandInventory:
-    RadAutoInjector: 1
-    Tourniquet: 3  
+    SpaceMedipen: 1
+    Tourniquet: 3
+    InflatableWallStack5: 2
   emaggedInventory:
     StimpackMini: 2

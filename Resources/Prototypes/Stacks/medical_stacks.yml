@@ -47,3 +47,8 @@
   spawn: RegenerativeMesh
   maxCount: 10
 
+- type: stack
+  id: Tourniquet
+  icon: {sprite: "/Textures/Objects/Specific/Medical/medical.rsi", state: tourniquet}
+  spawn: Tourniquet
+  maxCount: 5
