@@ -494,7 +494,6 @@
   - type: Item
     sprite: Objects/Consumable/Food/Baked/donkpocket.rsi
   - type: StorageFill
-    contents::highlight ExtraWhitespace ctermbg=red guibg=red
     - id: FoodDonkpocketMoth
       amount: 6
 
