@@ -9,6 +9,7 @@
     - id: ClothingOuterHardsuitSpatio
     - id: ClothingMaskGasExplorer
 
+# start of modifications
 - type: entityTable
   id: FillMiningHardsuitGear
   table: !type:AllSelector
@@ -33,6 +34,7 @@
     - id: ClothingMaskGasExplorer
     - id: Pickaxe
     - id: ClothingNeckBling
+# end of modifications
 
 - type: entityTable
   id: LockerFillSalvageSpecialist

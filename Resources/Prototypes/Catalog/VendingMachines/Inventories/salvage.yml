@@ -1,3 +1,5 @@
+# Modified by Ronstation contributor(s), therefore this file is licensed as MIT sublicensed with AGPL-v3.0.
+
 - type: vendingMachineInventory
   id: SalvageEquipmentInventory
   startingInventory:
@@ -10,5 +12,8 @@
     RadioHandheld: 2
     WeaponGrapplingGun: 4
     WeaponProtoKineticAccelerator: 4
+    ShuttleConsoleCircuitboard: 1 # Ronstation - humoring the plebeians who insist on the shuttle
   contrabandInventory:
     PlushieCarp: 1
+    Tourniquet: 2 # Ronstation
+    PortableGeneratorJrPacmanMachineCircuitboard: 1 # Ronstation
