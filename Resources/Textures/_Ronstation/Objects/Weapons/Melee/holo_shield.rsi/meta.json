@@ -8,18 +8,68 @@
   },
   "states": [
     {
-      "name": "teleriot-icon"
+      "name": "enabled-inhand-right",
+      "directions": 4,
+      "delays": [
+        [
+	  0.5,
+	  0.5,
+	  0.5,
+	  0.5
+	],
+	[
+	  0.5,
+	  0.5,
+	  0.5,
+	  0.5
+	],
+	[
+	  0.5,
+	  0.5,
+	  0.5,
+	  0.5
+	],
+	[
+	  0.5,
+	  0.5,
+	  0.5,
+	  0.5
+	]
+      ]
     },
     {
-      "name": "teleriot-inhand-right",
-      "directions": 4
+      "name": "enabled-inhand-left",
+      "directions": 4,
+      "delays": [
+        [
+	  0.5,
+	  0.5,
+	  0.5,
+	  0.5
+	],
+	[
+	  0.5,
+	  0.5,
+	  0.5,
+	  0.5
+	],
+	[
+	  0.5,
+	  0.5,
+	  0.5,
+	  0.5
+	],
+	[
+	  0.5,
+	  0.5,
+	  0.5,
+	  0.5
+	]
+      ]
+
     },
     {
-      "name": "teleriot-inhand-left",
-      "directions": 4
-    },
-    {
-      "name": "teleriot-on",
+      "name": "enabled-icon",
       "delays": [
         [
 	  0.5,
@@ -30,11 +80,14 @@
       ]
     },
     {
-      "name": "inhand-right-shield",
+      "name": "disabled-icon"
+    },
+    {
+      "name": "disabled-inhand-right",
       "directions": 4
     },
     {
-      "name": "inhand-left-shield",
+      "name": "disabled-inhand-left",
       "directions": 4
     }
   ]

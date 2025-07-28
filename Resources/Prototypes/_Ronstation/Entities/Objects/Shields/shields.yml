@@ -34,8 +34,8 @@
   - type: Sprite
     sprite: _Ronstation/Objects/Weapons/Melee/holo_shield.rsi
     layers:
-      - state: teleriot-icon
-      - state: teleriot-on
+      - state: disabled-icon
+      - state: enabled-icon
         visible: false
         map: ["shield"]
         shader: unshaded
@@ -44,12 +44,17 @@
     shape:
     - 0,0,1,1
     sprite: _Ronstation/Objects/Weapons/Melee/holo_shield.rsi
+    heldPrefix: null
+    inhandVisuals:
+      left:
+        - state: disabled-inhand-left
+      right:
+        - state: disabled-inhand-right
     layers:
-      - state: teleriot-icon
-      - state: teleriot-on
+      - state: disabled-icon
+      - state: enabled-icon
         visible: false
         map: ["shield"]
-    heldPrefix: teleriot
   - type: UseDelay
     delay: 0.5
   - type: PointLight
@@ -63,9 +68,11 @@
     spriteLayer: shield
     inhandVisuals:
       left:
-        - state: inhand-left-shield
+        - state: enabled-inhand-left
+          shader: unshaded
       right:
-        - state: inhand-right-shield
+        - state: enabled-inhand-right
+          shader: unshaded
   - type: Appearance
   - type: Tag
     tags:
