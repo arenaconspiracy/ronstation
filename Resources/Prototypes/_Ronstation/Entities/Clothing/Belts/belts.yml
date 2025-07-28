@@ -11,6 +11,11 @@
     sprite: _Ronstation/Clothing/Belt/blueshield.rsi
   - type: Item
     size: Ginormous
+    inhandVisuals:
+      left:
+        - state: inhand-left
+      right:
+        - state: inhand-right 
   - type: ItemSlots
     slots:
       pistol:
