@@ -38,6 +38,7 @@
       - state: teleriot-on
         visible: false
         map: ["shield"]
+        shader: unshaded
   - type: Item
     size: Large
     shape:

@@ -20,7 +20,7 @@
     job: BlueshieldOfficer
   - type: StealCondition
     stealGroup: WeaponPistolGendarme
-    owner: job-name-blueshield
+    owner: job-name-blueshield-officer
 
 - type: entity
   parent: BaseTraitorStealObjective
@@ -32,4 +32,4 @@
     job: BlueshieldOfficer
   - type: StealCondition
     stealGroup: HoloTowerShield
-    owner: job-name-blueshield
+    owner: job-name-blueshield-officer

@@ -16,7 +16,7 @@
 
 - type: stealTargetGroup
   id: HoloTowerShield
-  name: steal-targe-groups-holoshield
+  name: steal-target-groups-holoshield
   sprite:
     sprite: _Ronstation/Objects/Weapons/Melee/holo_shield.rsi/
     state: teleriot-on
