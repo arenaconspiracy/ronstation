@@ -1,0 +1,16 @@
+- type: entity
+  id: ClothingHeadsetBlueshield
+  name: blueshield officer's headset
+  description: A headset used by the elite bodyguard. Lets you know you're by the wrong man in the wrong place, makes all the difference in the world.
+  parent: ClothingHeadset
+  components:
+  - type: Sprite
+    sprite: _Ronstation/Clothing/Ears/Headsets/blueshield.rsi
+  - type: Clothing
+    sprite: _Ronstation/Clothing/Ears/Headsets/blueshield.rsi
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyCommand
+      - EncryptionKeyCentCom
+      - EncryptionKeyCommon

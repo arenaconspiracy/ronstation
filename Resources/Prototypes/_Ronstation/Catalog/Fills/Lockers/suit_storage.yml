@@ -1,0 +1,11 @@
+- type: entity
+  id: SuitStorageBlueshield
+  name: blueshield voidsuit storage unit
+  parent: SuitStorageBase
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: LockerFillBlueshieldHardsuit
+  - type: AccessReader
+    access: [["CentralCommand"]]
