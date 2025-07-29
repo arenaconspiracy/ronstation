@@ -9,9 +9,9 @@
   description: A lightweight spaceproof suit with minimal body armor, balancing protection with agility to doggedly protect corporate assets. Comes with a shoulder mounted flashlight instead of having one in the helmet.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/security.rsi
+    sprite: _Ronstation/Clothing/OuterClothing/Hardsuits/blueshield.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/security.rsi
+    sprite: _Ronstation/Clothing/OuterClothing/Hardsuits/blueshield.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
