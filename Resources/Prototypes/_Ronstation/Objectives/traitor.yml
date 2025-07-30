@@ -19,6 +19,7 @@
   - type: NotJobRequirement
     job: BlueshieldOfficer
   - type: StealCondition
+    verifyMapExistence: true # BSO exists on a miniscule subset of maps
     stealGroup: WeaponPistolGendarme
     owner: job-name-blueshield-officer
 
@@ -31,5 +32,6 @@
   - type: NotJobRequirement
     job: BlueshieldOfficer
   - type: StealCondition
+    verifyMapExistence: true # why isn't this the default????
     stealGroup: HoloTowerShield
     owner: job-name-blueshield-officer

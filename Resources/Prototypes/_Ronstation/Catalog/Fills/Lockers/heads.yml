@@ -15,6 +15,7 @@
       - id: BoxStinger
     - id: DoorRemoteCustom # two of them...
     - id: FlashlightSeclite
+    - id: RubberStampBlueshield
     - id: Tourniquet
       prob: 0.6
     - id: HandheldStationMap

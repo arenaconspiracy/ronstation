@@ -62,7 +62,7 @@
     enabled: false
     radius: 1.5
     energy: 2
-    color: blue
+    color: "#258"
   - type: ItemTogglePointLight
   - type: ToggleableVisuals
     spriteLayer: shield
@@ -80,8 +80,8 @@
   - type: Reflect
     reflectProb: 0.3
   - type: Blocking
-    passiveBlockFraction: 0.2
-    activeBlockFraction: 0.2
+    passiveBlockFraction: 0.15 # the way the numbers stack with other armor is CRACKED
+    activeBlockFraction: 0.15 # that's why this has to, relatively, suck ass
     passiveBlockModifier:
       coefficients:
         Blunt: 0.9
