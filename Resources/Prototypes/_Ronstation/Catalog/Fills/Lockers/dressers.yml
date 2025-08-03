@@ -5,10 +5,11 @@
   components:
   - type: StorageFill
     contents:
+      - id: ClothingHeadHatCapBlueshield
+      - id: ClothingHeadHatBeretBlueshield
       - id: ClothingUniformJumpsuitBlueshield
       - id: ClothingUniformJumpskirtBlueshield
       - id: ClothingUniformJumpsuitBlueshieldFormal
       - id: ClothingUniformJumpskirtBlueshieldFormal
-      - id: ClothingHeadHatCapBlueshield
-      - id: ClothingHeadHatBeretBlueshield
       - id: ClothingOuterWinterBlueshield
+      - id: ClothingNeckCloakBlueshield
