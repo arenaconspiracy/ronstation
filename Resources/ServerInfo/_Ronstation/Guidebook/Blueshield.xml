@@ -10,7 +10,7 @@
 
   As the station's BSO you are part of the [color=yellow]Command[/color] department; and are, foremost, tasked with protecting fellow members of Command. You are however, sent by [color=#282]CentComm[/color], and are part of Central Command. Meaning you can technically refuse orders from the [color=yellow]Captain[/color], if they go against the interests of NanoTrasen.
 
-  You are given a [color=#258]Central Command encryption key[/color] in your headset, which functions as a direct, long range link between you and CentComm, allowing you to speak to commanders across space. [bold]There isn't always someone manning the line[/bold] though, so you might need to get Central's attention with a stamped fax, unless they make contact first.
+  You are given a [color=#258]Central Command encryption key[/color] in your headset, which functions as a direct, long range link between you and CentComm, allowing you to speak to commanders across space. [bold]There isn't always someone manning the line[/bold], so you might need to get Central's attention with a stamped fax, unless they make contact first.
 
   <Box>
     <GuideEntityEmbed Entity="ClothingHeadsetBlueshield" Caption="headset"/>
@@ -24,5 +24,14 @@
 
   ## Your Toys
 
-  As a Blueshield Officer you are issued 
+  As a Blueshield Officer you are issued the [color=#3cf]Gendarme energy pistol[/color] as well as a belt to holster it, similar to the Captain's sabre.
+
+  The Gendarme features a [color=yellow]self-recharging battery[/color] and two separate [color=yellow]fire modes[/color] it can switch between. A [color=yellow]full charge[/color] is enough for [color=red]6 lethal shots[/color] or [color=#3cf]12 nonlethal shots[/color]. 
+
+  <Box>
+    <GuideEntityEmbed Entity="WeaponPistolGendarme"/>
+    <GuideEntityEmbed Entity="ClothingBeltBlueshield"/>
+  </Box>
+
+  The Gendarme can fire energy bolts in a [color=red]lethal[/color] & [color=#3cf]non-lethal[/color] configuration; both modes deal [color=#3cf]stamina damage[/color] and pass through glass. the lethal configuration deals less stamina damage than the dedicated non-lethal configuration.
 </Document>

@@ -1,6 +1,7 @@
 - type: entity
   id: SuitStorageBlueshield
   name: blueshield voidsuit storage unit
+  suffix: Blueshield Officer
   parent: SuitStorageBase
   components:
   - type: EntityTableContainerFill
