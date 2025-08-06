@@ -2,7 +2,7 @@
   parent: [ClothingBeltBase, ClothingSlotBase, BaseCentcommContraband]
   id: ClothingBeltBlueshield
   name: blueshield officer's belt
-  description: A utilitarian belt for NanoTrasen Blueshield officers, featuring holsters for the special issue gendarme and holographic tower shield.
+  description: A utilitarian belt for NanoTrasen Blueshield officers, featuring holsters for the special issue Gendarme energy pistol.
   components:
   - type: Sprite
     sprite: _Ronstation/Clothing/Belt/blueshield.rsi
@@ -54,5 +54,5 @@
     containers:
       pistol:
       - WeaponPistolGendarme
-      shield:
-      - HoloTowerShield
+        #      shield:
+        #      - HoloTowerShield
